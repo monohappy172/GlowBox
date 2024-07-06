@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título GlowBox */
+.glowbox {
+    color: yellow; /* Color del texto */
+    background-color: black; /* Fondo negro */
+    padding: 10px 20px; /* Espaciado interno */
+    display: inline-block; /* Para ajustar el tamaño del contorno al texto */
+    border: 2px solid black; /* Contorno negro */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    font-size: 3em; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrando el texto */
+}
